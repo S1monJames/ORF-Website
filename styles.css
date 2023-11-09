@@ -1,0 +1,361 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* INDEX SEITE ANFANG---------------*/
+
+/* NAVBAR ANFANG*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 0.9375rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    background-color: #16416B;
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header {
+    margin-top: 3.75rem;
+}
+
+nav a:hover {
+    background-color: steelblue;
+    text-decoration: underline black;
+}
+
+/* NAVBAR ENDE*/
+
+
+/* GENERELLE SECTION ANFANG*/
+section {
+    margin-top: 10px;
+    background-color: steelblue;
+}
+
+img {
+    vertical-align: middle;
+    width: 15%;
+}
+
+span {
+    vertical-align: middle;
+    font-size: xx-large;
+    margin-left: 1.30rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+/* GENERELLE SECTION ENDE*/
+
+
+/* INDEX SECTION ANFANG*/
+section h2 {
+    margin-top: 2.9375rem;
+    margin-left: 1.20rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section p {
+    margin-left: 1.20rem;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+/* INDEX SECTION ENDE*/
+
+/* ARTICELONE ENDE*/
+
+.articleOne img {
+    width: 100%;
+}
+
+.articleOne figcaption {
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ARTICELONE ENDE*/
+
+/* ARTICELTWO ANFANG*/
+
+.articleTwo  {
+    margin-top: 3.125rem;
+}
+
+.articleTwo h3 {
+    margin-left: 3.125rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.articleTwo p {
+    margin-left: 3.125rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+/* ARTICELTWO ENDE*/
+
+
+/* BLOCKQUOTE ANFANG*/
+
+blockquote {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    background-color: #f1f9ff;
+    border-left: 10px solid dodgerblue;
+    padding: 10px 80px 30px 50px;
+    text-align: left;
+    position: relative;
+    z-index: 0;
+}
+
+blockquote img {
+    width: 9.375rem;
+    float: left;
+    margin-right: 3.125rem;
+}
+
+blockquote p {
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+}
+
+blockquote cite {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+blockquote a {
+    font-style: italic;
+    text-decoration: none;
+    color: blue;
+}
+/* BLOCKQUOTE ANFANG*/
+
+hr {
+    border-width: 2px;
+}
+
+address {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section address {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    margin-left: 1.2rem;
+}
+
+/* INDEX SEITE ENDE---------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/* Ö3 TOP 40 SEITE ANFANG*/
+table {
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+/* Ö3 TOP 40 SEITE ENDE*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/* Kontakt Seite ANFANG*/
+.contact {
+    background-color: #f5f5f5;
+    padding-top: 0.625rem;
+    margin-top: 0;
+}
+
+label {
+    padding: 0.7rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input {
+    padding: 0.3rem;
+    width: 60%;
+    margin-left: 0.7rem;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+textarea {
+    display: block;
+    margin-left: 0.7rem;
+    height: 200px;
+    width: 61%;
+}
+
+.box {
+    width: 19px;
+    margin: 0.625rem;
+    display: inline;
+}
+
+.submit {
+    width: 14%;
+}
+
+
+.submit{
+    background-color: #808181;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Kontakt Seite ENDE*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/* FOOTER ALLGEMEIN*/
+
+footer {
+    background-color: #16416B;
+}
+
+footer li a {
+    display: block;
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer img {
+    width: 150%;
+}
+
+footer a:hover {
+    color: lightsteelblue;
+    text-decoration: underline lightsteelblue;
+}
+
+/* FOOTER ENDE*/
+
+/* BREAKPOINTS ANFANG-----------------------------------------------*/
+
+@media (min-width: 800px) {
+    .hamburger-icon {
+        display: none;
+    }
+    section img {
+        max-width: none;
+        width: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    section img {
+        max-width: none;
+        width: 150px;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    blockquote img {
+        float: none;
+        margin-left: 55px;
+    }
+
+    footer img {
+        width: 150px;
+    }
+
+    section {
+        margin-top: 55px;
+    }
+
+    li {
+        float: none;
+    }
+
+    section img {
+        max-width: none;
+        width: 150px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        height: 48px;
+    }
+
+    nav.show-navbar ul {
+        display: block;
+    }
+
+    nav.show-navbar {
+        height: auto;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .hamburger-icon:hover{
+        color: lightsteelblue;
+    }
+    .submit {
+        width: 100px;
+    }
+}
+
+/* Damit der Abschicke Button so bleibt wie er ist*/
+@media (max-width: 500px) {
+    .submit{
+        width: 100px;
+    }
+}
+
+/* BREAKPOINTS ENDE-----------------------------------------------*/
+
+/* ☰ Menü ANFANG*/
+.hamburger-icon {
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+/* ☰ Menü ENDE*/
+
